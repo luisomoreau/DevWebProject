@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="tp08" />
+          <element id="module-output" name="DevWebProject" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
@@ -14,7 +14,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="tp08/web/Web" />
+      <element id="javaee-facet-resources" facet="DevWebProject/web/Web" />
     </root>
   </artifact>
 </component>

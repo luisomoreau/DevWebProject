@@ -1,8 +1,8 @@
 package hei.devweb.tp08.dao.impl;
 
-import javax.sql.DataSource;
-
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+
+import javax.sql.DataSource;
 
 public class DataSourceProvider {
 
@@ -13,9 +13,9 @@ public class DataSourceProvider {
 			dataSource = new MysqlDataSource();
 			dataSource.setServerName("localhost");
 			dataSource.setPort(3306);
-			dataSource.setDatabaseName("hei");
-			dataSource.setUser("hei");
-			dataSource.setPassword("hei");
+			dataSource.setDatabaseName("projetDevWeb");
+			dataSource.setUser("root");
+			dataSource.setPassword("mysql");
 		}
 		return dataSource;
 	}
