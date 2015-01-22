@@ -1,97 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad25b2d4-6117-4910-849d-23b2a507ba36" name="Default" comment="feat - add servlets &#10;feat - add back office page&#10;feat - organized web-inf pages with header menu and footer&#10;fix - set footer form fields non required for phone and company name">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/servlets/AccueilServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/servlets/AccueilServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/managers/Cinematheque.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/managers/Cinematheque.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/impl/DataSourceProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/impl/DataSourceProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/entities/Film.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/entities/Film.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/FilmDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/FilmDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/bouchon/impl/FilmDaoBouchonImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/bouchon/impl/FilmDaoBouchonImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/impl/FilmDaoMysqlImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/impl/FilmDaoMysqlImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/hei/devweb/tp08/dao/impl/FilmDaoTestCase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/FireExtinguisherTruck.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/entities/Genre.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/entities/Genre.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/GenreDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/GenreDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/bouchon/impl/GenreDaoBouchonImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/bouchon/impl/GenreDaoBouchonImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/hei/devweb/tp08/dao/impl/GenreDaoMysqlImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/classes/hei/devweb/tp08/dao/impl/GenreDaoMysqlImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/hei/devweb/tp08/dao/impl/GenreDaoTestCase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/anim-plongee.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/bouteilles-plongee.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/extincteurs.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/footer-qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/fr-default-home_default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/header-lsi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/home-co2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/mat-incendie-home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/qui-sommes-nous.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/BackOfficeServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/MaterielIncendieServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/MesDevisServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/ProduitServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/RequalificationServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/accueil.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/back-office.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/materiel-incendie.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mes-devis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/produit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/requalification.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\managers\servlets\AccueilServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\servlets\AjouterFilmServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\servlets\DetailFilmServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\servlets\GenericServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\servlets\ListeGenresServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\ajouter.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\film.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\filmAleatoire.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\listefilms.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\WEB-INF\listegenres.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target\tp08-0.0.1-SNAPSHOT\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\menu.jsp" afterPath="$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT/WEB-INF/menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/AccueilServlet.java" afterPath="$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/AccueilServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="ad25b2d4-6117-4910-849d-23b2a507ba36" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/projetDevWeb.sql" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\java\hei\devweb\tp08\servlets\ListeFilmsServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\sql\creationTables.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\sql\peuplementTables.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\ajouter.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\film.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\filmAleatoire.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\listefilms.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\WEB-INF\listegenres.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\src\main\webapp\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tp08.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,16 +87,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MesDevisServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/tp08/servlets/MesDevisServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="materiel-incendie.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/materiel-incendie.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -180,18 +100,38 @@
       <file leaf-file-name="requalification.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/requalification.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="663">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="663">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/angular.js">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33243242" vertical-offset="343515" max-vertical-offset="374612">
-              <caret line="20214" column="16" selection-start-line="20214" selection-start-column="16" selection-end-line="20214" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11424">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projetDevWeb.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/projetDevWeb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="2244">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQL - projetDevWeb@localhost" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://db-console:/95ad0b60/abacd65d-af8a-4277-97cc-f1c1db842ba4/">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -202,16 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.538462" vertical-offset="115" max-vertical-offset="595">
               <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="produit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/produit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
-              <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -388,6 +318,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -905,21 +861,28 @@
       <workItem from="1421919778618" duration="245000" />
       <workItem from="1421920504018" duration="1503000" />
       <workItem from="1421925642548" duration="2791000" />
-      <workItem from="1421928776423" duration="4122000" />
+      <workItem from="1421928776423" duration="5386000" />
     </task>
+    <task id="LOCAL-00001" summary="feat - add servlets &#10;feat - add back office page&#10;feat - organized web-inf pages with header menu and footer&#10;fix - set footer form fields non required for phone and company name">
+      <created>1421933381439</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1421933381439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8661000" />
+    <option name="totallyTimeSpent" value="9925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1014,14 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1082,14 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="408">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1206,18 +1153,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/requalification.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="663">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33243242" vertical-offset="343515" max-vertical-offset="374612">
           <caret line="20214" column="16" selection-start-line="20214" selection-start-column="16" selection-end-line="20214" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/requalification.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="663">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11424">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/projetDevWeb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="2244">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/95ad0b60/abacd65d-af8a-4277-97cc-f1c1db842ba4/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
