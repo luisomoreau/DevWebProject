@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tp08:war exploded">
+    <output-path>$PROJECT_DIR$/target/tp08-0.0.1-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tp08" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="C:\Users\Louis\ownCloud\HEI\ITI\dev web\tp08-corr\tp08\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="tp08/web/Web" />
+    </root>
+  </artifact>
+</component>
